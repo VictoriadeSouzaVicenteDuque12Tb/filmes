@@ -1,0 +1,32 @@
+
+GET http://localhost:3000/filmes
+Content-Type: application/json
+
+###
+
+
+POST http://localhost:3000/filmes
+Content-Type: application/json
+
+{
+    "title": "Spider-Man: Across the Spider-Verse",
+    "genre": "Animation",
+    "duration": 140,
+    "age_rating": "10"
+}
+
+###
+
+PUT http://localhost:3000/filmes/1
+Content-Type: application/json
+
+{
+    "title": "The Matrix: Reloaded",
+    "genre": "Sci-Fi / Action",
+    "duration": 138,
+    "age_rating": "14"
+}
+
+###
+
+DELETE http://localhost:3000/filmes/12"!
