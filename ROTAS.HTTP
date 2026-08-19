@@ -1,32 +1,26 @@
-
-GET http://localhost:3000/filmes
-Content-Type: application/json
+GET http://localhost:3333/
 
 ###
-
-
-POST http://localhost:3000/filmes
+POST http://localhost:3333/create
 Content-Type: application/json
 
 {
-    "title": "Spider-Man: Across the Spider-Verse",
-    "genre": "Animation",
-    "duration": 140,
-    "age_rating": "10"
+    "title": "Homem-Aranha: Sem Volta Pra Casa",
+    "gender": "Ação",
+    "ageLimit": 12,
+    "duration": 149
 }
 
 ###
+DELETE http://localhost:3333/delete/12
 
-PUT http://localhost:3000/filmes/1
+###
+PUT http://localhost:3333/update/2
 Content-Type: application/json
 
 {
-    "title": "The Matrix: Reloaded",
-    "genre": "Sci-Fi / Action",
-    "duration": 138,
-    "age_rating": "14"
+    "title": "Senhor dos Anéis: As duas torres",
+    "gender": "Fantasia / Ação",
+    "ageLimit": 18,
+    "duration": 187
 }
-
-###
-
-DELETE http://localhost:3000/filmes/12"!

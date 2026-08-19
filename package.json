@@ -1,10 +1,10 @@
 {
-  "name": "projeto-todo_backend",
+  "name": "correcao-atv1-3bimestre",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "node --watch index.js"
+    "dev": "node --watch server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,6 @@
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
-    "mysql2": "^3.23.2"
+    "mysql2": "^3.23.3"
   }
 }
